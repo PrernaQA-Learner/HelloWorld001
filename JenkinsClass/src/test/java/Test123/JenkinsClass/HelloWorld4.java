@@ -12,7 +12,7 @@ public class HelloWorld4
 	  {
 		  System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
 		  driver=new ChromeDriver();
-	      driver.get("https://www.Google.com");
+	      driver.get("https://www.facebook.com");
 	      System.out.println("Page accessed successfully");
 	      driver.close();
 	  }
